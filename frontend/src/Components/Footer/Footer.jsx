@@ -1,11 +1,11 @@
 import React from 'react';
-import './footer.css';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="absolute bottom-8 w-full">
+      <div className="flex flex-row justify-center">
         <p>MY WEATHER</p>
-        <div className='line'></div>
+      </div>
     </footer>
   )
 }
